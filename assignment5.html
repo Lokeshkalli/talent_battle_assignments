@@ -1,0 +1,161 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment No. 5</title>
+</head>
+<body>
+    <h4>Q5. Create employee registration webpage using HTML form objects.
+    </h4>
+    <hr>
+<center>
+    <marquee>Enter your Details Here.</marquee>
+    <h1>Employee Registration Form</h1>
+    <form>
+        First Name :
+        <input type="text" placeholder="Enter Your First Name Here">
+        <br/><br/>
+        Last Name :
+        <input type="text" placeholder="Enter Your Last Name Here">
+        <br/><br/>
+        E-Mail :
+        <input type="email" placeholder="Enter Your E-Mail Here">
+        <br/><br/>
+        Gender :
+        <input type="radio" name = gender value="male" checked>Male
+        <input type="radio" name = gender value="female">Female
+        <input type="radio" name = gender value="other" >Other
+        <br/><br/>
+        Date :
+        <input type="date">
+        <br/><br/>
+        Contact Number :
+        <input type="number">
+        <br/><br/>
+        Residential Address :
+        <input type="text">
+        <br/><br/>
+        Country :
+        <select name = country>
+            <option value = "India">India</option>
+            <option value = "China">China</option>
+            <option value = "Pakistan">Pakistan</option>
+        </select>
+        <br/><br/>
+        Required Files to Upload :
+        <br/><br/>
+        ID Proof :
+        <input type="file">
+        CV :
+        <input type="file">
+        Resume :
+        <input type="file"> 
+        <br/><br/>
+        <br/><br/>
+
+        <input type="button" value="Click Here to Submit">
+        <input type="reset" value="Click Here to Reset">
+
+
+
+
+    </form>
+</center>
+</body>
+</html> -->
+Create employee registration webpage using HTML form objects.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emplyee Registration Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Employee Registration Form</h1>
+    <form  style="text-align: center;" action="">
+        <fieldset style="display:inline-table;">
+       
+        <b style="text-align:left;">Full Name:</b> 
+        
+    
+        <input type="input" name="First name">
+        <b style="text-align: right;" > Date Of Birth:</b>
+       
+
+        <input type="date" name="dof"><br>
+        <br>
+        <b style="text-align: left;">  Email  :</b>
+        <!-- Email  : &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Phone -->
+        
+        <input type="email" name="Email"> 
+     
+        <b style="text-align:right ;">Phone no:</b>
+        
+        <input type="tel" name="Phone No"><br>
+        <br>
+        <b> Gender :</b>
+        
+        <input type="radio" name="Gender" value="Male"  > Male 
+        <input type="radio" name="Gender" value="Female"  > Female <br>
+        <b  style="text-align:left;">Address :</b>
+        
+    <br>
+        <textarea name="Address" cols="50" rows="10"></textarea>
+        <br>
+        <br>
+
+        <b>Applying Position :</b> 
+        
+        <input style="text-align: left;" type="text" name="Applying Position">
+
+        <br>
+        <b>Type Of Work:</b>
+        
+        <input type="radio" name="permanent" value="permanent" > Permanent 
+        <input type="radio" name="temporary" value="temporary" > Temporary 
+        <input type="radio" name="both" value="both" > Both 
+        <input type="radio" name="other" value="other" > Other <br>
+
+
+       <b> Please Upload Resume:</b>
+
+        
+        <input type="file" name="file">
+        <br>
+        
+       <b> Cover Letter or Additional Information : </b>
+        <br>
+        <textarea name="coverletter"  cols="50" rows="15"></textarea>
+        <br>
+        <br>
+        <b>Veteran Status (Please select the option that describes your status the best) :</b>
+        <br>
+        <input type="radio"  >  I am a Veteran 
+        <input type="radio"  > I am s special disabled veteran 
+        <input type="radio" > I am recently separated veteran <br>
+        <input type="radio"  > I am not a veteran 
+        <input type="radio"  > I am an other protected veteran 
+        <input type="radio"  > Prefer Not to Answer 
+        <br>
+       <b>Additional Information:</b><br>
+       <textarea name="placeholder" cols="60" rows="15"></textarea>
+       <br>
+       <input type="button" value="Submit">
+       <input type="button" value="Reset">
+
+
+
+
+    </fieldset>
+
+
+
+
+
+    </form>
+</body>
+</html>
